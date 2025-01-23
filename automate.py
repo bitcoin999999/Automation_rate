@@ -63,6 +63,7 @@ def save_to_excel(data_dict, auto_rates, total_rate):
 # --------------------------------------------------------------------------------
 def main():
     st.title("공정별 자동화율 계산기")
+    st.caption("Created by 설비관리팀 정인수")
     tab_names = ["완분", "프레스", "코팅", "연삭", "세척", "검사"]
 
     # 탭 생성
